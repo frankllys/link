@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ital' , sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #507687;
+    height: 100vh;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+}
+.link:hover {
+    font-size: 40px;
+    transition: 0.8s ease;
+}
+
